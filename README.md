@@ -69,8 +69,8 @@ Count all such positions for every number in the range.
 # My Approach
 1. Iterate from num1 to num2.
 2. Convert each number into a string (array of digits).
-3. For every index i from 1 to len-2:
-4. Compare digit[i] with digit  and digit[i+1]
+3. For every index j from 1 to len-2:
+4. Compare digit[j] with digit  and digit[j+1]
 5. Check if it forms a local maxima or local minima
 6. If yes, increase cnt.
 
